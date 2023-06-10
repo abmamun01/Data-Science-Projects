@@ -1,0 +1,10 @@
+|--- Temprature <= 0.50
+|   |--- Outlook <= 0.50
+|   |   |--- class: Yes
+|   |--- Outlook >  0.50
+|   |   |--- Routine <= 0.50
+|   |   |   |--- class: No
+|   |   |--- Routine >  0.50
+|   |   |   |--- class: Yes
+|--- Temprature >  0.50
+|   |--- class: No
